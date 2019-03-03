@@ -1,0 +1,98 @@
+.title-section{
+	background-color: #F2F4F6;
+	border-top:3px solid #7fcbce;
+	height: 50px;
+	max-width: 100%;
+	padding-left: 9%;
+	padding-right: 9%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	&__button{
+		background-color: #e6e9ed;
+		width: 36px;
+		height: 100%;
+		font-family: var(--main1-font-family);
+		color: #444444;
+		font-size: 13px;
+		font-weight: 400;
+		letter-spacing: 1.1px;
+		line-height: 24.006px;
+		text-align: left;
+		border:0;
+		margin:0;
+		&:hover{
+			background-color: rgba(89, 183, 194, 0.8);
+			color:white;
+	   }
+   }
+	&__button-money{
+		background-color: #e6e9ed;
+		width: 27px;
+		height: 100%;
+		font-family: var(--main1-font-family);
+		color: #444444;
+		font-size: 13px;
+		font-weight: 400;
+		letter-spacing: 1.1px;
+		line-height: 24.006px;
+		text-align: center;
+		border:0;
+		margin:0;
+		&:hover{
+			background-color: rgba(89, 183, 194, 0.8);
+			color:white;
+	   }
+   }
+	&__button_hover{
+		background-color: rgba(89, 183, 194, 0.8);
+		color:white;
+   }
+	&__button-money_position{
+		margin-left:34px;
+   }
+	&__address-email{
+		font-family: var(--main2-font-family);
+		color: #444444;
+		font-size: 11px;
+		font-weight: 400;
+		letter-spacing: 0.275px;
+		line-height: 24.006px;
+		text-align: left;
+   }
+	&__message{
+		width: 16px;
+		height: 12px;
+		margin-right:8px;
+		margin-top:4px;
+   }
+	&__item1{
+		display:flex;
+		align-self: center;
+   }
+	&__login{
+		text-decoration:none;
+		font-family: var(--main1-font-family);
+		color: #59b7c2;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 24px;
+		text-align: left;
+		padding-left:5px;
+		padding-right:5px;
+		margin-top:12px;
+   }
+	&__welcome{
+		font-family: var(--main1-font-family);
+		color: #777777;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 24px;
+		text-align: left;
+   }
+	&__item2{
+		display:flex;
+		align-self: center;
+		margin-right:125px;
+   }
+}
